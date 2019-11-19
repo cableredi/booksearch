@@ -1,0 +1,21 @@
+.Book {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #0101;
+  min-height: 250px;
+}
+
+.Book .image {
+  float: left;
+  margin-right: 20px;
+}
+
+.Book .information {
+  vertical-align: top;
+}
+
+.Book h2 {
+  margin-top: 0;
+}

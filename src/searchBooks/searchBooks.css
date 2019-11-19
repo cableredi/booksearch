@@ -1,0 +1,21 @@
+.SearchBooks__searchBar {
+  padding: 10px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.SearchBooks__searchBar button {
+  margin-left: 10px;
+}
+
+.SearchBooks__Filters {
+  background-color: Gainsboro ;
+  padding: 10px;
+  text-align: center;
+}
+
+.SearchBooks__PrintType, 
+.SearchBooks__BookType {
+  display: inline-block;
+  margin-left: 10px;
+}
