@@ -28,9 +28,13 @@ export default function Book(props) {
           {AUTHORS > '' ? <span className="bold">Author: </span> : ''}
           { AUTHORS }
         </p>
-        <p className='price'>
-          <span className='bold'>Price: </span>
+        <p className='moreInfo'>
+          <span className='bold'>More Info: </span>
           { PRICE } 
+        </p>
+        <p className='link'>
+          <span className='bold'>Price: </span>
+            <a href={ props.book.volumeInfo.canonicalVolumeLink }>{ props.book.volumeInfo.canonicalVolumeLink }</a> 
         </p>
         <p className='description'>
           {props.book.volumeInfo.description}

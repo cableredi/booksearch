@@ -1,0 +1,12 @@
+.BookList_error {
+  color: red;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 1.2em;
+}
+
+.BookList_noresults {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 1.2em;
+}

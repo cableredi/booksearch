@@ -5,7 +5,7 @@ import Book from '../book/book';
 export default class BookList extends Component {
   render() {
     const error = this.props.error
-    ? <div className = 'googleAPI_error'>{this.props.error}</div>
+    ? <div className = 'BookList_error'>{this.props.error}</div>
     : '';
 
     let display = '';
@@ -14,7 +14,7 @@ export default class BookList extends Component {
         ? this.props.books.map( (book, i) => <Book book={book} key={i} /> )
         : '';
     } else {
-      display = 'Search results not found';
+      display = <div className = "BookList_noresults">Search results not found</div>;
     }
 
     return (
