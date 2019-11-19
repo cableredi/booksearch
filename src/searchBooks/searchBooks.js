@@ -12,7 +12,6 @@ export default class SearchBooks extends Component {
     e.preventDefault();
 
     const searchItem = e.target.searchInput.value;
-    const apiKey = 'AIzaSyCFqhT6E6gH_0njaXYi4cxnoZuuNCfjwnU';
     const apiURL = 'https://www.googleapis.com/books/v1/volumes';
     
     const params = {
